@@ -14,13 +14,14 @@
 <body>
   <header>
     <h1>Ann Arbor Art Museum</h1>
-
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="exhibits.html">Current Exhibits</a></li>
-        <li class="active"><a href="hours.html">Hours and Admission</a></li>
-        <li><a>Plan Your Visit</a></li>
-      </ul>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="exhibits.html">Current Exhibits</a></li>
+          <li class="active"><a href="hours.html">Hours and Admission</a></li>
+          <li><a href="visit.html">Plan Your Visit</a></li>
+        </ul>
+      </nav>
  
   </header>
 
@@ -45,7 +46,7 @@
             <th scope="col">Day</th>
             <th scope="col">Hours</th>
             <th scope="col">Adult Admission</th>
-            Student Admission
+            <th scope="col">Student Admission</th>
             <th scope="col">Ann Arbor Visitor Notes</th>
           </tr>
         </thead>
@@ -69,7 +70,7 @@
           <tr>
             <th scope="row">Saturday</th>
             <td>9:00 AM – 6:00 PM</td>
-            $14
+            <td>$14</td>
             <td>$9</td>
             <td>Expect heavier traffic during football weekends and festivals</td>
           </tr>
@@ -86,7 +87,7 @@
     </section>
 
     <section>
-      <h4>Free Admission Days</h4>
+      <h2>Free Admission Days</h2>
 
       <p>
         The museum offers free general admission on the first Sunday of every month. These days are designed to welcome Ann Arbor residents, students, families, and visitors who want to explore local culture without an admission cost.
@@ -113,8 +114,9 @@
     <section>
       <h2>Group Visits and School Programs</h2>
 
-
-        Groups of ten or more visitors should contact the museum in advance.Group reservations help staff prepare gallery guides, accessibility accommodations, and gathering spaces.
+      <p>
+        Groups of ten or more visitors should contact the museum in advance. Group reservations help staff prepare gallery guides, accessibility accommodations, and gathering spaces.
+      </p>
 
       <p>
         School groups can request tours connected to Ann Arbor history, public art, environmental studies, visual analysis, or careers in museums and cultural organizations.
@@ -124,12 +126,20 @@
     </section>
   </main>
 
-    <p>&copy; 2026 Ann Arbor Art Museum. All rights reserved.</p>
+  <footer>
+    <!--The <footer> landmark contains information about the page or organization,such as copyright, contact information, related links, or policies. -->
+    <p> &copy; 2026 Ann Arbor Art Museum. All rights reserved.</p>
+    <!-- &copy; is an HTML character entity that displays the copyright symbol. -->
 
     <p>
-      Email us at
+      Contact us at
       <a href="mailto:info@annarborartmuseum.example">info@annarborartmuseum.example</a>
+        <!-- A mailto link opens the user's default email application.  -->
+      or call
+      <a href="tel:+17345551234">734-555-1234</a>.
+         <!-- A tel link can start a phone call on devices that support calling.-->
     </p>
+  </footer>
 
 </body>
 </html>
